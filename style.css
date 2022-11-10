@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* header style */
+header{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    border: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.yourname{
+    border: 3px solid rgb(122, 112, 112);
+    color:rgb(122, 112, 112);
+    padding: 10px;
+    margin-right: 160px;
+}
+.icoon{
+    margin-right: 10px;
+    color: rgb(122, 112, 112);
+    opacity:0.5; 
+}
+.icoon:hover{
+    opacity: 1;
+}
+nav {
+    text-align: center;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    margin: 15px;
+    color:  rgb(122, 112, 112);
+    font-size: 16px;
+}
+nav a:hover{
+    color:blueviolet;
+}
+
+
+.two{
+    background-color: rgb(178, 244, 244);
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.data{
+    margin-right: 80px;
+}
+.data h1{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.data p{
+    margin-bottom: 12px;
+    color: rgb(72, 69, 69) ;
+}
+button{
+    margin: 50px 0px;
+    height: 40px;
+    width: 120px;
+    background-color: blueviolet ;
+    border:none;
+    color: rgb(235, 211, 211);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+button:hover{
+    transform:translate(0px,-5px);
+    box-shadow: 0px 3px 3px 2px rgb(32, 31, 31);
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.lob{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.pr p{
+    margin: 10px 0px;
+    color: rgb(66, 64, 64);
+}
+.lee{
+    color: blueviolet;
+    margin: 5px;
+}
+                                        /*  start commment */
+.foure{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding: 0px 60px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px;
+    position: relative;
+    box-shadow: inset -0px -150px 20px 0px #25242433;
+    transition:0.5s;
+}
+.image:hover{
+    box-shadow: inset -0px -150px 20px 0px #2524245c;
+    transform: scale(1.1,1.1)
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.image P{
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+.image h2{
+    color: white;
+    position: absolute;
+    top: 570px;
+    left: 20px;
+}
+                                            /* end comment */
+.products{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    height: 105vh;
+    background-color: rgba(222, 216, 216, 0.516);
+    margin: 80px 0px 0px 0px;
+}
+.prod{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title p{
+    margin-left: 660px ;
+    margin-bottom: 20px;
+    border-bottom: 3px solid blueviolet;
+    max-width: 60px;
+}
+.title h1{
+    font-size: 30px;
+}
+.pro{
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.pro img{
+    width: 100%;
+    height: 60%;
+}
+.pro h2{
+    color: blueviolet;
+    text-align: center;
+    margin: 15px;
+}
+.pro p{
+    text-align: center;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.five2{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.title2 p{
+    margin-left: 725px ;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid blueviolet;
+    max-width: 60px;
+}
+
+.sale{
+    height: 80%;
+}
+.sale img{
+    width: 100%;
+    height: 100%;
+}
+.Bigsale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Bigsale h1{
+    color: blueviolet;
+    font-size: 30px;
+    margin: 10px;
+}
+.Bigsale h5{
+    margin-bottom: 25px;
+}
+span{
+    color:rgb(138, 131, 131);
+}
+             /* comment */
+footer{
+    height: 70vh;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.jffj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.novigations{
+    display:flex;
+    flex-direction: column;
+}
+.sell{
+    display: flex;
+    flex-direction: row;
+}
+.novig{
+    margin:25px ;
+}
+.novig p{
+    margin-bottom: 20px;
+}
+.promoimage{
+    height: 100px;
+    width: 250px;
+    margin: 15px 0px;
+}
+.promoimage img{
+    height: 100%;
+    width: 100%;
+}
+.Promo p{
+    margin:5px 0px;
+}
+.name{
+    text-align: center;
+}
+.Contact i{
+    color: blueviolet;
+}
+.email{
+margin: 30px 0px;
+}
+.email h3{
+    margin: 10px 0px;
+}
+input[type=email]{
+    height: 30px;
+}
+input[type=submit]{
+    width: 80px;
+    height: 30px;
+    color: rgb(234, 225, 225);
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+}
+
+@media (max-width:650px){
+    .one{
+        display: flex;
+        justify-content: space-around;
+    }
+    .text{
+        border: none;
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    .yourname{
+        border: 3px solid rgb(122, 112, 112);
+        width: 150px;
+        color:rgb(122, 112, 112);
+        padding: 10px;
+        margin-right:130px;
+    }
+    .yourname h2{
+        font-size: 18px;
+    }
+    .icoon{
+        margin-right: 80px;
+        display: flex;
+        flex-direction: row;
+        color: rgb(122, 112, 112);
+        opacity:0.5; 
+    }
+    .icon a{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .search{
+        margin-left: 50px;
+    }
+    nav {
+        text-align: center;
+        margin: 10px;
+    }
+    nav a{
+        text-decoration: none;
+        margin: 15px 10px;
+        color:  rgb(122, 112, 112);
+        font-size: 15px;
+    }
+    .two{
+        background-color: rgb(178, 244, 244);
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .photo img{
+        width: 380px;
+        height: 215px;
+    }
+    .data{
+        margin-right: 50px;
+        text-align: center;
+    }
+    .data h1{
+        font-size: 27px;
+        margin: 20px 0px;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .foure{
+        display: flex;
+        flex-direction: column;
+        height: 1600px;
+        padding: 0px 60px;
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+        margin: 0px 10px;
+        position: relative;
+        box-shadow: inset -0px -150px 20px 0px #25242433;
+        transition:0.5s;
+        margin-bottom: 20px;
+    }
+    .image:hover{
+        box-shadow: inset -0px -150px 20px 0px #2524245c;
+        transform: scale(1.1,1.1)
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .image P{
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 20px;
+    }
+    .image h2{
+        color: white;
+        position: absolute;
+        top: 420px;
+        left: 20px;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        height: 210vh;
+        background-color: rgba(222, 216, 216, 0.516);
+        margin: 80px 0px 0px 0px;
+    }
+    .prod{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+    .pro{
+        width: 100%;
+        height: 400px;
+        margin: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .five{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .five2{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .title2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .title2 p{
+        margin-left: 725px ;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-bottom: 3px solid blueviolet;
+        max-width: 60px;
+    }
+    .sale{
+        height: 80%;
+    }
+    .sale img{
+        width: 100%;
+        height: 100%;
+    }
+    .Bigsale{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bigsale h1{
+        color: blueviolet;
+        font-size: 30px;
+        margin: 15px;
+    }
+    .Bigsale h5{
+        margin-bottom: 3px;
+    }
+
+
+    footer{
+        height: 120vh;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .jffj{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .novigations{
+        display:flex;
+        flex-direction: column;
+    }
+    .novigations h2{
+        text-align: center;
+    }
+    .sell{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Promo h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .promoimage{
+        margin: auto;
+    }
+    .Promo p{
+        text-align: center;
+    }
+    .Contact{
+        text-align: center;
+        margin-top: 30px;
+    }
+    }
